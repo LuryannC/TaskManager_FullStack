@@ -1,0 +1,10 @@
+Run backend:
+uvicorn main:app
+
+
+Run frontend:
+npm run dev
+
+
+Curl Method:
+curl -X POST -H "Content-Type:application/json" -d "{\"email\":\"test@example.com\", \"password\":\"pass123\"}" http://localhost:8000/register
